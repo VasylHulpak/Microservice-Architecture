@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.WebAPI", "Gateway.WebAPI\Gateway.WebAPI.csproj", "{CBE6F201-2909-4345-8DF8-2F59F7BA9E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "Microservices\ProductAPI\ProductAPI.csproj", "{6226EA58-A7C7-43DF-AFC6-A7CA81E905C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "Services\ProductAPI\ProductAPI.csproj", "{6226EA58-A7C7-43DF-AFC6-A7CA81E905C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAPI", "Microservices\UserAPI\UserAPI.csproj", "{8EA21882-F078-4EDB-9364-664EA53C3AC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAPI", "Services\UserAPI\UserAPI.csproj", "{8EA21882-F078-4EDB-9364-664EA53C3AC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
