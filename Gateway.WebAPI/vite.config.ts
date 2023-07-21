@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import mkcert from 'vite-plugin-mkcert'
+import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
 		vue(),
+		WindiCSS(),
 		mkcert()
 	],
 	server: {
