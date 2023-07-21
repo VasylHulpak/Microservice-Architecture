@@ -5,6 +5,5 @@ import 'virtual:windi.css'
 import 'virtual:windi-devtools'
 import 'vant/lib/index.css'
 
-import { Button } from 'vant';
 
-createApp(App).use(Button).mount('#app')
+createApp(App).mount('#app')

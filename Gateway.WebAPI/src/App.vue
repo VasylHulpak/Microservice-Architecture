@@ -1,17 +1,12 @@
 <script setup lang="ts">
+import { Tabbar, TabbarItem } from 'vant';
+
+import { ref } from 'vue';
+const active = ref(-1);
 </script>
 <template>
-  <div>
-    <a href="/gateway/products" target="_self">
-      Products
-    </a>
-    <a href="/gateway/users" target="_self">
-      Users
-    </a>
-    <van-button type="primary">Primary</van-button>
-  </div>
+  <Tabbar v-model="active" class="top-0 border-1px border-blue" type="card" scrollspy sticky>
+    <TabbarItem url="/gateway/users/" icon="friends-o" >Users</TabbarItem>
+    <TabbarItem url="/gateway/products" icon="cart-o">Products</TabbarItem>
+  </Tabbar>
 </template>
-
-<style>
-
-</style>
